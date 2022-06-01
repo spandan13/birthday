@@ -147,10 +147,10 @@ $('document').ready(function(){
 		$('#b2').attr('id','b22')
 		$('#b3').attr('id','b33')
 		$('#b4').attr('id','b44')
-		$('#b11').animate({top:240, left: vw-150},500);
-		$('#b22').animate({top:240, left: vw-50},500);
-		$('#b33').animate({top:240, left: vw+50},500);
-		$('#b44').animate({top:240, left: vw+150},500);
+		$('#b11').animate({top:240, left: vw-200},500);
+		$('#b22').animate({top:240, left: vw-100},500);
+		$('#b33').animate({top:240, left: vw+0},500);
+		$('#b44').animate({top:240, left: vw+100},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
